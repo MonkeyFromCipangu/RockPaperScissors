@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#gameContainer {
+    background-color: gainsboro;
+    border-style: solid;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 150px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tools {
+    display: flex;
+}
+
+#tools > img {
+    flex: 1 0 auto;
+    border-style: solid;
+    width: 50px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    padding: 35px 10px;
+}
+
+#buttons {
+    display: flex;
+}
+
+#buttons > button {
+    flex: 1 0 auto;
+    border-style: solid;
+    border-width: 3px;
+    width: 10px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#buttons > button:hover {
+    background-color: grey;
+}
+
+#buttons > button:active {
+    transform: translateY(4px);
+}
+
+#scoreBoard {
+    display: flex;
+}
+
+#pScore {
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    flex: 0 2 10%;
+    margin: auto;
+    padding: 5px;
+    border-width: 2px;
+    text-align: center;
+}
+
+#cScore {
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    flex: 0 2 10%;
+    margin: auto;
+    padding: 5px;
+    border-width: 2px;
+    text-align: center;
+}
+
+#roundLog {
+    border-style: solid;
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    padding: 4px;
+    font-size: 90%;
+    font-weight: 900;
+    text-align: center;
+    flex: 0 0 auto;
+    border-width: 2px;
+}
